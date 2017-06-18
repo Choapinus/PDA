@@ -1,0 +1,3 @@
+Individuo con 16.666666666666668% de tener epilepsia 
+Individuo con 16.666666666666668% de tener parkinson 
+Individuo con 33.333333333333336% de tener alzheimer 

@@ -1,0 +1,27 @@
+class Stack:
+    def __init__(self):
+        self.items = []
+
+    def isEmpty(self):
+        return self.items == []
+
+    def push(self, item):
+        self.items.append(item)
+
+    def pop(self):
+        return self.items.pop()
+
+    def peek(self):
+        return self.items[len(self.items)-1]
+
+    def size(self):
+        return len(self.items)
+
+    """
+    def clear(self):
+        self.items = []
+        return True
+    """
+
+#nota: me dio paja trabajar con una lista como pila, asi que se crea un modulo
+#que trabaja justamente una lista, pero como una pila
